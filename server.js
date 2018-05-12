@@ -20,8 +20,8 @@ app.use(bodyParser.text());
 app.use(express.static(__dirname + '/app/data/Images'));
 
 //Routes
-require(path.join(__dirname, "./FriendFinder/app/routing/apiRoutes")) (app);
-require(path.join(__dirname, "./FriendFinder/app/routing/htmlRoutes")) (app);
+require(path.join(__dirname, "./app/routing/apiRoutes")) (app);
+require(path.join(__dirname, "./app/routing/htmlRoutes")) (app);
 
 
 // LISTENER; "starts" the server
