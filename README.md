@@ -4,4 +4,5 @@
 * The app will then display the name and picture of the user with the best overall match. 
 * Good luck in finding your perfect match!
 * The server.js file requires the following npm packages: express, body-parser and path.
+* Link to app:  https://friend-finder-node-app.herokuapp.com/
 
